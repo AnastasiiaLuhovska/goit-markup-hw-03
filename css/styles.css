@@ -29,6 +29,7 @@ img{
 header .container{
     display: flex;
     justify-content: space-between;
+    padding: 24px 156px;    
 }
 
 .nav{
@@ -46,6 +47,8 @@ header .container{
 
 .nav-list{
     display: flex;
+    margin-left: 76px;
+    gap: 40px;
 }
 .nav-logo-studio{
     color: #2E2F42;
@@ -66,6 +69,12 @@ header .container{
 .address {
     font-style: normal;
 }
+
+.address-list{
+    display: flex;
+    gap: 40px;
+}
+
 .header-contacts{
     font-weight: 400;
     font-size: 16px;
@@ -83,6 +92,13 @@ header .container{
     background-color: #2E2F42;
 }
 
+.main-section-hero .container{
+    padding: 191px 472px 188px 472px;  
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    gap: 45px;
+}
 .main-section-hero-header{
     color:#FFFFFF;
     font-size: 56px;
@@ -100,13 +116,25 @@ header .container{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
+    padding: 16px 32px;
+    border: 1px solid #4D5AE5;
+    border-radius: 4px;
 }
 
 .main-setion-hero-button:hover,
 .main-setion-hero-button:focus {
     background-color: #404BBF;
 }
-    
+
+.second-section .container{
+    padding: 120px 156px;
+
+}
+.second-section-ul{
+    display: flex;
+    gap:24px;
+
+}
 .second-section-header{
     color: #2E2F42;
     font-weight: 500;
@@ -128,6 +156,13 @@ header .container{
     background-color: #F4F4FD;
 }
 
+.our-team-section .container{
+    padding: 120px 156px;
+}
+
+.card-team-container{
+    padding: 32px 16px;
+}
 .our-team-header{
     color: #2E2F42;
     font-weight: 700;
@@ -136,11 +171,20 @@ header .container{
     letter-spacing: 0.02em;
     text-align: center;
     text-transform: capitalize;
+    margin-bottom: 72px;
 }
 
-
+.our-team-ul{
+    display:flex;
+    justify-content: center;
+    gap: 24px;
+}
 .ourteam-card{
     background-color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 4px;
 }
 .ourteam-worker{
     color:#2E2F42;
@@ -165,8 +209,37 @@ header .container{
         letter-spacing: 0.02em;
         text-align: center;
         text-transform: capitalize;
+        margin-bottom: 72px;
 }
 
+.our-portfolio-section .container{
+    padding: 120px 0;
+    max-width: 1158px;
+
+}
+.our-portfolio-section {
+    display: flex;
+
+    justify-content: center;
+}
+.portfolio-card-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+}
+
+.card-container{
+   padding: 16px 0px 16px 32px;
+   margin-bottom:48px;
+   border-bottom: 1px solid #E7E9FC;
+   border-left: 1px solid #E7E9FC;
+   border-right: 1px solid #E7E9FC;
+    
+}
+.portfolio-card{
+
+}
 .our-porfolio-title{
     color: #2E2F42;
     font-weight: 500;
@@ -205,4 +278,13 @@ header .container{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: left;
+    max-width: 264px;
+}
+
+footer .container{
+    display: flex;
+    flex-direction: column;
+    padding: 100px 120px;
+    align-items: flex-start;
+    gap: 16px;
 }
