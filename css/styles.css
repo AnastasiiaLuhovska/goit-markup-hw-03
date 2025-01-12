@@ -327,7 +327,7 @@ img{
 }
 
 .footer .footerlogo{
-    display: inline-block;
+
     font-family: "Raleway", sans-serif;
     color:#4D5AE5;
     font-weight: 700;
@@ -356,4 +356,8 @@ footer .container{
     flex-direction: column;
     align-items: flex-start;
     padding: 0 120px;
+}
+
+footer a{
+        display: inline-block;
 }
