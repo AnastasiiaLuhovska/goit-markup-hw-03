@@ -165,21 +165,7 @@ img{
 }
 
 .visually-hidden {
-        position: absolute;
-            /* Видаляє елемент з потоку документа */
-            width: 1px;
-            /* Робить елемент майже невидимим */
-            height: 1px;
-            margin: -1px;
-            /* Уникає можливих візуальних артефактів */
-            padding: 0;
-            overflow: hidden;
-            /* Сховує вміст, що виходить за межі */
-            clip: rect(0, 0, 0, 0);
-            /* Приховує вміст, обмежуючи видиму область */
-            white-space: nowrap;
-            /* Уникає переносу тексту */
-            border: 0;
+    display: none;
 }
 
 .second-section-ul{
@@ -326,8 +312,7 @@ img{
     padding: 100px 0;
 }
 
-.footer .footerlogo{
-
+.footerlogo{
     font-family: "Raleway", sans-serif;
     color:#4D5AE5;
     font-weight: 700;
@@ -337,8 +322,6 @@ img{
     text-transform: uppercase;
     margin-bottom: 16px;
     display: inline-block;
-    width: 115px;
-    height:24px;
 }
 .logostudio{
     color: #F4F4FD;
