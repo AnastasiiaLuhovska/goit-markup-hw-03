@@ -37,12 +37,13 @@ header .container{
     display: flex;
     justify-content: space-between;
     width: 1158px; 
-    padding: 24px 15px;
+    padding: 0 15px;
     align-items: center;
 }
 
 .nav{
     display: flex;
+    padding: 24px 0;
 }
 .nav-logo{
     color: #4D5AE5;
@@ -103,6 +104,7 @@ header .container{
     background-color: #2E2F42;
     display: flex;
     justify-content: center;
+    padding: 188px 0;
 }
 
 .main-section-hero .container{
@@ -110,8 +112,8 @@ header .container{
     flex-direction:column;
     align-items: center;
     gap: 45px;
-    max-width: 496px;
-    padding: 188px 0;
+ 
+
 }
 .main-section-hero-header{
     color:#FFFFFF;
@@ -119,6 +121,7 @@ header .container{
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
+    max-width: 496px;
 }
 
 .main-setion-hero-button{
@@ -145,10 +148,11 @@ header .container{
 .second-section{
         display: flex;
             justify-content: center;
+        padding: 120px 0;
 }
 .second-section .container{
     max-width: 1158px;
-    padding: 120px 15px;
+    padding: 0 15px;
 
 }
 
@@ -172,6 +176,7 @@ header .container{
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
+    margin-bottom: 8px;
 }
 
 .second-section-paragraph{
@@ -186,11 +191,12 @@ header .container{
     background-color: #F4F4FD;
     display: flex;
     justify-content: center;
+    padding: 120px 0;
 }
 
 .our-team-section .container{
     max-width: 1158px;
-    padding: 120px 15px;
+    padding: 0 15px;
     
 }
 
@@ -246,28 +252,28 @@ header .container{
         text-align: center;
         text-transform: capitalize;
         margin-bottom: 72px;
+        
 }
 
 .our-portfolio-section .container{
-    padding: 120px 0;
     max-width: 1158px;
 
 }
 .our-portfolio-section {
     display: flex;
-
+     padding: 120px 0;
     justify-content: center;
 }
 .portfolio-card-list{
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+    row-gap: 48px;
     justify-content: center;
 }
 
 .card-container{
    padding: 32px 16px;
-   margin-bottom:48px;
    border-bottom: 1px solid #E7E9FC;
    border-left: 1px solid #E7E9FC;
    border-right: 1px solid #E7E9FC;
@@ -324,6 +330,6 @@ header .container{
 footer .container{
     display: flex;
     flex-direction: column;
-    padding: 100px 120px;
+    padding: 100px 0;
     align-items: flex-start;
 }
