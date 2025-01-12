@@ -321,7 +321,16 @@ img{
     padding: 100px 0;
 }
 
-.footerlogo{
+.footer .container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0 120px;
+    display: inline-block;
+}
+
+.footer-logo{
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     color:#4D5AE5;
     font-weight: 700;
@@ -330,14 +339,13 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px;
-    display: inline-block;
 }
-.logostudio{
+.logo-studio{
     color: #F4F4FD;
     display: inline-block;
 }
 
-.footerparagrph{
+.footer-paragrph{
     color: #F4F4FD;
     font-size: 16px;
     line-height: 1.5;
@@ -346,10 +354,4 @@ img{
     max-width: 264px;
 }
 
-footer .container{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    padding: 0 120px;
-}
 
