@@ -336,6 +336,9 @@ img{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-bottom: 16px;
+    display: inline-block;
+    width: 115px;
+    height:24px;
 }
 .logostudio{
     color: #F4F4FD;
@@ -358,6 +361,3 @@ footer .container{
     padding: 0 120px;
 }
 
-footer a{
-        display: inline-block;
-}
