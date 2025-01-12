@@ -301,6 +301,7 @@ header .container{
 
 .footer{
     background-color: #2E2F42;
+    padding: 100px 0;
 }
 
 .footer-logo{
@@ -330,6 +331,6 @@ header .container{
 footer .container{
     display: flex;
     flex-direction: column;
-    padding: 100px 0;
     align-items: flex-start;
+    padding: 0 120px;
 }
