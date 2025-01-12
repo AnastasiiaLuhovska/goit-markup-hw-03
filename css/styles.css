@@ -38,14 +38,14 @@ header .container{
     justify-content: space-between;
     width: 1158px; 
     padding: 0 15px;
-    align-items: center;
+    margin: 0 auto;
 }
 
 .nav{
     display: flex;
-    padding: 24px 0;
+    align-items: center;
 }
-.nav-logo{
+.navlogo{
     color: #4D5AE5;
     font-family: "Raleway", sans-serif;
     font-weight: 700;
@@ -54,49 +54,57 @@ header .container{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     margin-right: 76px;
+        padding: 24px 0;
 }
 
-.nav-list{
+.navlist{
     display: flex;
     margin-left: 76px;
     gap: 40px;
 }
-.nav-logo-studio{
+.navlogostudio{
     color: #2E2F42;
 }
-.nav-sections{
+.navsections{
     color: #2E2F42;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
+     padding: 24px 0;
     
 }
 
-.nav-sections:hover,
-.nav-sections:focus{
+.navsections:hover,
+.navsections:focus{
     color:#404BBF;
 }
 
 .address {
     font-style: normal;
+    display: flex;
+    align-items: center;
+
 }
 
-.address-list{
+.addresslist{
     display: flex;
     gap: 40px;
+
+
 }
 
-.header-contacts{
+.headercontacts{
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    padding: 24px 0;
 }
 
-.header-contacts:hover,
-.header-contacts:focus{
+.headercontacts:hover,
+.headercontacts:focus{
     color:#404BBF;
 }
 
@@ -319,6 +327,7 @@ header .container{
 }
 
 .footer-logo{
+    display: inline-block;
     font-family: "Raleway", sans-serif;
     color:#4D5AE5;
     font-weight: 700;
@@ -326,11 +335,11 @@ header .container{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    display: inline-block;
     margin-bottom: 16px;
 }
 .logo-studio{
     color: #F4F4FD;
+    display: inline-block;
 }
 
 .footer-paragrph{
